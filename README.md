@@ -18,7 +18,6 @@ alias sbc='source ~/.bashrc'
 alias sbp='source ~/.bash_profile'
 
 alias de='cd ~/Desktop'
-
 ```
 
 ## brew caskでインストールしたアプリをLaunchに出力させる
@@ -96,3 +95,31 @@ source ~/.bashrc
 を行なって，設定を反映させる．
 
 参考サイト: [ターミナル起動時に.bashrcを読み込むようにする](http://blog.ruedap.com/2010/09/13/mac-bash-bashrc)
+
+## Vimの設定
+
+```
+"#####表示設定#####
+set number "行番号を表示する
+set title "編集中のファイル名を表示
+set showmatch "括弧入力時の対応する括弧を表示
+syntax on "コードの色分け
+set expandtab
+set tabstop=2 "インデントをスペース2つ分に設定
+set shiftwidth=2 "tabを半角スペースで挿入する
+set smartindent "オートインデント
+set list "空白文字の可視化
+set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:% "可視化した空白文字の表示形式について
+set nrformats-=octal ""0"で始まる数値を，8進数として扱わないようにする
+set hidden "ファイルの保存をしていなくても，べつのファイルを開けるようにする
+set history=50
+set virtualedit=block "文字のないところにカーソル移動できるようにする
+set whichwrap=b,s,[,],<,> "カーソルの回り込みができるようになる(行末で→を押すと、次の行へ)
+set backspace=indent,eol,start "バックスペースを，空白，行末，行頭でも使えるようにする
+set wildmenu
+
+"#####検索設定#####
+set ignorecase "大文字/小文字の区別なく検索する
+set smartcase "検索文字列に大文字が含まれている場合は区別して検索する
+set wrapscan "検索時に最後まで行ったら最初に戻る
+```
