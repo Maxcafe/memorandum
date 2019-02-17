@@ -112,7 +112,8 @@ Host [ホスト] [ホスト名]
 
 ただし，セキュリティ的にはあまりよろしくない．
 
-参考サイト: [ssh agentをパスフレーズ省略に応用する方法まとめ](https://qiita.com/onokatio/items/397a5899a0ec16c7e60a)
+参考サイト:
+- [ssh agentをパスフレーズ省略に応用する方法まとめ](https://qiita.com/onokatio/items/397a5899a0ec16c7e60a)
 
 ## ghqとpecoの初期設定
 
@@ -140,7 +141,9 @@ source ~/.bashrc
 ```
 を行なって，設定を反映させる．
 
-参考サイト:[Go言語開発環境のための、ghq+pecoの設定手順(macOS, bash向け)](https://qiita.com/hidache/items/7dbf0eba2f36f5e1a447)
+参考サイト:
+- [Go言語開発環境のための、ghq+pecoの設定手順(macOS, bash向け)](https://qiita.com/hidache/items/7dbf0eba2f36f5e1a447)
+- [pecoの基礎の基礎](https://qiita.com/xtetsuji/items/05f6f4c1b17854cdd75b)
 
 ## ターミナル起動時に~/.bashrcを常に読み込むようにする
 
