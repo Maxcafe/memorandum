@@ -45,6 +45,20 @@ setupやshortcut keyなどを自分の備忘録としてまとめておく．
 - Cheat sheet
 - Crash Plan
 
+## brewでinstallするもの
+
+```
+brew install tree
+brew install git
+brew install ghq
+brew install peco
+brew install go
+brew install nmap
+brew install pyenv
+brew install python3
+brew install tmux
+```
+
 ## エイリアスの作り方
 
 `~/.bashrc`で
