@@ -99,7 +99,13 @@ ssh-add -K ~/.ssh/[秘密鍵]
 
 `~/.ssh/config`で以下のように記述すれば良い．
 ```
-Host *
+Host [ホスト] [ホスト名]
+    User git
+    Port 22
+    HostName [ホスト名]
+    identityFile ~/.ssh/[秘密鍵]
+    TCPKeepAlive yes
+    IdentitiesOnly yes
     AddKeysToAgent yes
     UseKeychain yes
 ```
