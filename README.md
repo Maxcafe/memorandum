@@ -27,7 +27,7 @@ source ~/.bashrc
 ```
 を行なって，設定を反映させる．
 
-参考サイト:(Go言語開発環境のための、ghq+pecoの設定手順(macOS, bash向け))[https://qiita.com/hidache/items/7dbf0eba2f36f5e1a447]
+参考サイト:[Go言語開発環境のための、ghq+pecoの設定手順(macOS, bash向け)](https://qiita.com/hidache/items/7dbf0eba2f36f5e1a447)
 
 ## ターミナル起動時に~/.bashrcを常に読み込むようにする
 
@@ -45,4 +45,4 @@ source ~/.bashrc
 ```
 を行なって，設定を反映させる．
 
-参考サイト: (ターミナル起動時に.bashrcを読み込むようにする)[http://blog.ruedap.com/2010/09/13/mac-bash-bashrc]
+参考サイト: [ターミナル起動時に.bashrcを読み込むようにする](http://blog.ruedap.com/2010/09/13/mac-bash-bashrc)
