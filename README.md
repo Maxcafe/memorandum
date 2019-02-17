@@ -1,6 +1,50 @@
 # memorandum
 setupやshortcut keyなどを自分の備忘録としてまとめておく．
 
+## MacBookに導入しているもの
+
+- Xcode
+- homebrew
+- peco
+- ghq
+- iTerm2
+- Alfred3
+- InosomniaX
+- Popcorn-time
+- AppCleaner
+- Atom
+  - texの設定をすること
+- Emacs
+- Evernote
+- Thunderbird
+- bash-completion
+- Simple Comic
+- µTorrent
+- Clipy
+- Vim
+- Cafeine
+- HyperSwitch
+- Virtual Box
+- Flux
+- Firefox
+- Google chrome
+- VMware Horizon Client
+- Eclipse
+- Java
+- Memory Cleaner
+- VLC
+- Texshop
+- Stufflt Expander
+- Toy Viewer
+- Tunnelblick
+- LINE
+- Slack
+- Telegram
+- Wireshark
+- Burp Suite Community Edition
+- Cheat sheet
+- Crash Plan
+
 ## エイリアスの作り方
 
 `~/.bashrc`で
