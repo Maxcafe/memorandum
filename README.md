@@ -76,6 +76,10 @@ alias sbc='source ~/.bashrc'
 alias sbp='source ~/.bash_profile'
 
 alias de='cd ~/Desktop'
+
+alias gia='git add .'
+alias gic='git commit -m'
+alias gip='git push'
 ```
 
 ## brew caskでインストールしたアプリをLaunchに出力させる
@@ -117,6 +121,11 @@ Host [ホスト] [ホスト名]
 
 ## ghqとpecoの初期設定
 
+はじめにghqのルートにしたいディレクトリをルートに以下のコマンドで設定する．
+```
+git config --global ghq.root [ghqのルートにしたいディレクトリのパス] 
+```
+
 `~/.bashrc`に以下のものを追加する
 
 ```
@@ -132,8 +141,7 @@ function Ctrl-g-cd-ghqroot() {
   fi
 }
 
-bind -x '"\201": Ctrl-g-cd-ghqroot'
-bind '"\C-g":"\201\C-m"'
+bind -x '"\C-g": Ctrl-g-cd-ghqroot'
 ```
 変更したら
 ```
