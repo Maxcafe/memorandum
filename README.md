@@ -59,6 +59,7 @@ brew install python3
 brew install tmux
 ```
 
+# bashの場合
 ## エイリアスの作り方
 
 `~/.bashrc`で
@@ -302,3 +303,14 @@ set ignorecase "大文字/小文字の区別なく検索する
 set smartcase "検索文字列に大文字が含まれている場合は区別して検索する
 set wrapscan "検索時に最後まで行ったら最初に戻る
 ```
+# zshの場合 
+## jupyter notebookをターミナルから起動する方法
+まずアプリケーションファイル内でAnacondaのアプリの「オリジナルを表示」をoptionを押しながら選択する．
+そして，Anacondaファイル内のbinのパスをコピーしておく．
+`vim ~/.zshrc`で.zshrcを開き，以下を記述する
+```
+# to start jupyter notebook from terminal
+export {Anacondaファイル内のbinのパス}:$PATH 
+```
+その後，`source .zshrc`を実行する．
+最後に確認として，ターミナルで`jupyter notebook`と打って，起動するかを確認する．
